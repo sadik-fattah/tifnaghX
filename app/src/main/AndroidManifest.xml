@@ -13,6 +13,18 @@
         android:theme="@style/Theme.TifnaghX"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.Rhytem"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Game2"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Game1"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Alphabet"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
