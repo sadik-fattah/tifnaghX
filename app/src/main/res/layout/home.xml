@@ -112,6 +112,7 @@
         android:layout_weight="1"
         android:background="#7594FD">
         <TextView
+            android:id="@+id/contactus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
