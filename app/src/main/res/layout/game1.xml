@@ -33,16 +33,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:weightSum="8">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:weightSum="4">
-<!--
-2 12 17 20 15 25 26 9 1 24 7 14 27 21 23 28 32 11 3 13 16 29 10 18 5 6 8 4 22 31 19 30-->
-        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,6 +83,7 @@
                 android:shadowDx="2"
                 android:shadowDy="8"
                 android:shadowRadius="5" />
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -195,6 +186,7 @@
                 android:shadowDx="2"
                 android:shadowDy="8"
                 android:shadowRadius="5" />
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -253,58 +245,6 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:weightSum="4">
-            <Button android:id="@+id/btn32"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ⵯ"
-                android:fontFamily="@font/tifnagh"
-                android:textSize="45sp"
-                android:shadowColor="#000"
-                android:shadowDx="2"
-                android:shadowDy="8"
-                android:shadowRadius="5" />
-            <Button android:id="@+id/btn11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ⵄ"
-                android:fontFamily="@font/tifnagh"
-                android:textSize="45sp"
-                android:shadowColor="#000"
-                android:shadowDx="2"
-                android:shadowDy="8"
-                android:shadowRadius="5" />
-            <Button android:id="@+id/btn3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ⴳ"
-                android:fontFamily="@font/tifnagh"
-                android:textSize="45sp"
-                android:shadowColor="#000"
-                android:shadowDx="2"
-                android:shadowDy="8"
-                android:shadowRadius="5" />
-            <Button android:id="@+id/btn13"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="ⵇ"
-                android:fontFamily="@font/tifnagh"
-                android:textSize="45sp"
-                android:shadowColor="#000"
-                android:shadowDx="2"
-                android:shadowDy="8"
-                android:shadowRadius="5" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:weightSum="4">
             <Button android:id="@+id/btn16"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -356,6 +296,57 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:weightSum="4">
+            <Button android:id="@+id/btn32"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵯ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵄ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⴳ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵇ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
             <Button android:id="@+id/btn5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -367,11 +358,85 @@
                 android:shadowDx="2"
                 android:shadowDy="8"
                 android:shadowRadius="5" />
+            <Button android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⴻ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⴽ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
             <Button android:id="@+id/btn4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="ⴷ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <Button android:id="@+id/btn22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵖ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵥ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn19"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵓ"
+                android:fontFamily="@font/tifnagh"
+                android:textSize="45sp"
+                android:shadowColor="#000"
+                android:shadowDx="2"
+                android:shadowDy="8"
+                android:shadowRadius="5" />
+            <Button android:id="@+id/btn30"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ⵣ"
                 android:fontFamily="@font/tifnagh"
                 android:textSize="45sp"
                 android:shadowColor="#000"
