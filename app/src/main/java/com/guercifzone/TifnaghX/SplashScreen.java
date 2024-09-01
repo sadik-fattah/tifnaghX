@@ -37,6 +37,6 @@ new Handler().postDelayed(new Runnable() {
     public void run() {
         startActivity(new Intent(SplashScreen.this,Home.class));
     }
-},5000);
+},4000);
     }
 }

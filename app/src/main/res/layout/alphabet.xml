@@ -21,7 +21,7 @@
         android:fontFamily="@font/tifnagh"
         android:gravity="center"
         android:textColor="#fff"
-        android:text="ⴰ a"
+        android:text="ⴰ"
         android:shadowColor="#000"
         android:shadowRadius="8"
         android:shadowDx="8"

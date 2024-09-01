@@ -48,60 +48,63 @@
             android:id="@+id/alphabet"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_margin="10dp"
             android:background="@drawable/back1"
             android:drawableLeft="@drawable/alphabet"
-            android:padding="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintHorizontal_bias="0.066"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.137" />
+            app:layout_constraintVertical_bias="0.098" />
 
         <Button
             android:id="@+id/game1"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_margin="10dp"
             android:background="@drawable/back1"
             android:backgroundTint="#FFDE4D"
             android:drawableLeft="@drawable/game1"
             android:onClick="onClickGame1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintHorizontal_bias="0.933"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.138" />
+            app:layout_constraintVertical_bias="0.106" />
 
         <Button
             android:id="@+id/game2"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_margin="10dp"
             android:background="@drawable/back1"
             android:backgroundTint="#FFDE4D"
             android:drawableLeft="@drawable/game2"
             android:onClick="onClickGame2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintHorizontal_bias="0.066"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.73" />
+            app:layout_constraintVertical_bias="0.795" />
 
         <Button
             android:id="@+id/rhyme"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_margin="10dp"
             android:background="@drawable/back1"
             android:backgroundTint="#FFDE4D"
             android:drawableLeft="@drawable/rhyme"
             android:onClick="onClickrhyme"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.703" />
+            app:layout_constraintVertical_bias="0.809" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <LinearLayout
         android:layout_width="match_parent"
